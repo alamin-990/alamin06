@@ -1,0 +1,384 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+}
+
+
+
+
+
+/* header start here */
+nav{
+  background: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+    width: 250px;
+    padding: 25px 0px 10px;
+    margin-top: 15px;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  color: #1f4f87;
+  font-size: 17px;
+  margin-top: 15px;
+  padding: 30px 13px;
+  border-radius: 3px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.checkbtn{
+  font-size: 30px;
+  color: #1f4f87;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+/* header end here */
+
+/* banner start here */
+.banner{
+  background: url('../images/banner.png') top center no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 200px 0px 80px;
+}
+.banner h1{
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 66px;
+  margin-bottom: 140px;
+}
+.banner .fas{
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* banner end here */
+
+.who-we{
+  padding: 80px 0px;
+}
+.who-we .title h1{
+  font-size: 36px;
+  line-height: 46px;
+  color: #1f4f87;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.who-we p{
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+
+.we-do{
+  background: url('../images/what-banner.png') top center no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
+}
+.we-do .title h1{
+  font-size: 36px;
+  line-height: 46px;
+  color: #1f4f87;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.card .card-body{
+  position: absolute;
+  top: 40%;
+  left: 32%;
+}
+.card .card-body h5{
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 75px;
+  text-transform: uppercase;
+}
+.we-do .card{
+  text-align: center;
+  border: none;
+  background: transparent;
+  margin-top: 60px;
+}
+.attorney{
+  background: url('../images/attorney-banner.png') top center no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
+}
+.attorney .title{
+  margin-top: 140px;
+}
+.attorney .title h1{
+  font-size: 36px;
+  line-height: 46px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.attorney p{
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.attorney .card{
+  text-align: center;
+  border: none;
+  background: transparent;
+  margin-top: 60px;
+}
+.attorney .card .card-body{
+  position: absolute;
+  top: 75%;
+  left: 10%;
+  text-align: left;
+}
+.attorney a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #f2622c;
+  line-height: 22px;
+  margin-top: 28px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.language{
+  padding: 80px 0px;
+}
+.language .title h1{
+  font-size: 36px;
+  line-height: 46px;
+  color: #1f4f87;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.language .title{
+  text-align: center;
+  margin-bottom: 80px;
+}
+.language h1{
+  font-size: 32px;
+  line-height: 42px;
+  color: #1f4f87;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.language p{
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.language a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #f2622c;
+  line-height: 22px;
+  margin-top: 28px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.language .col-lg-3{
+  margin-bottom: 30px;
+}
+.contact-form{
+  padding: 80px 0px;
+  background: #28377e;
+}
+.contact-form .title h1{
+  font-size: 36px;
+  line-height: 46px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.contact-form .title{
+  text-align: center;
+  margin-bottom: 80px;
+}
+/* .contact-form .form{
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+} */
+.contact-form .form input, textarea{
+  display: block;
+  background: transparent;
+  margin-bottom: 20px;
+  width: 70%;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+}
+.contact-form .form .btn-success{
+  padding: 6px 60px;
+  text-align: center;
+  margin-top: 15px;
+  text-transform: uppercase;
+  background: #f2622c;
+  color: #fff;
+}
+
+
+footer{
+  background: #0c1234;
+}
+footer p{
+  text-align: center;
+  color: #fff;
+  padding: 10px 0px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+footer p span{
+  text-transform: uppercase;
+  color: #f2622c;
+  padding: 0 5px;
+}
+.social{
+  text-align: center;
+}
+.social .fab{
+  padding: 6px 6px;
+  font-size: 16px;
+  border-radius: 50%;
+  color: black;
+  background: white;
+  margin: 16px 6px;
+  cursor: pointer;
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px){
+  nav ul li a{
+    font-size: 16px;
+    text-decoration: none
+  }
+  .checkbtn{
+    display: inline-block;
+    color: black;
+  }
+   .logo{
+    width: 80px;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #f9f9f9;
+    top: 78px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    opacity: .7;
+  }
+  nav ul li{
+    display: block;
+    margin: 30px 0;
+  }
+  nav ul li a{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: -40px;
+  }
+  .fas{
+    color: #1f4f87;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: inline-block;
+    color: black;
+  }
+   .logo{
+    width: 80px;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #f9f9f9;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 30px 0;
+  }
+  nav ul li a{
+    font-size: 20px;
+    color: #1f4f87;
+    text-decoration: none;
+    margin-top: -30px;
+  }
+  .fas{
+    color: #1f4f87;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+
